@@ -1,0 +1,383 @@
+/* @override http://servernewemage.local/vdiamonds/assets/css/estilos.css */
+
+/* @override http://servernewemage.local/vdiamonds/assets/css/estilos.css */
+
+/* Estilos del sitio. */
+/**
+ * @autor    					newemage.com.mx
+ * @fecha      {dd/mm/aaaa}		01/01/2012  	
+ * @sitioweb		    		test.com
+ * @diseño  				    newemage        
+ */
+@font-face {
+    font-family: 'CenturyG';
+    src: url('texgyreadventor-regular-webfont.eot');
+    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-regular-webfont.woff') format('woff'),
+         url('texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('texgyreadventor-regular-webfont.svg#TeXGyreAdventorRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CenturyGBold';
+    src: url('texgyreadventor-bold-webfont.eot');
+    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bold-webfont.woff') format('woff'),
+         url('texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('texgyreadventor-bold-webfont.svg#TeXGyreAdventorBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	color: #1e1e1e;
+	font: 16px 'CenturyG';
+	background-color: #fff;
+	background-image: url(../img/bg.jpg);
+}
+
+
+#contactanos form fieldset button.btn {
+	float: right;
+}
+#mapa{
+	position: absolute;
+	top: 230px;
+	width: 100%;
+	overflow: hidden;
+	height: 450px;
+	left: 0;
+}
+
+#contactanos form fieldset input {
+	height: 25px;
+}
+
+section#contactanos {
+	display: block;
+	overflow: hidden;
+	width: 734px;
+	height: 451px;
+	background: url(../img/bg-form.png) no-repeat 0 top;
+	position: relative;
+	bottom: 19px;
+	right: 180px;
+}
+
+#contactanos form {
+	width: 201px;
+	margin-left: 163px;
+	margin-top: 20px;
+}
+li.categoria{
+	list-style-type: none;
+
+}
+
+ul.catalogo {
+	margin-left: 0;
+	margin-right: 15px;
+}
+ul.catalogo a:hover,
+li.categoria a:hover{
+	text-decoration:none;
+	color: #fff;
+	background-color:#3f1a9d;
+}
+#imagen img{
+	width: 380%;
+	height: auto;
+	margin-bottom: 15px;
+}
+ul.detalles-vista li:hover{
+	cursor:pointer;
+}
+ul.detalles-vista li{
+	float: left;
+	list-style-type: none;
+	width: 110px;
+	height: 85px;
+	margin-right: 10px;
+}
+
+#mini-galeria ul.detalles-vista li img.img-mini {
+	width: 110px;
+	height: 85px;
+}
+ul.detalles-vista {
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	height: 101px;
+}
+
+div#descripcion {
+	float: right;
+	width: 270px;
+}
+
+#descripcion h2 {
+	margin-top: 0;
+}
+#imagen {
+	width: 380px;
+	height: auto;
+	float: left;
+	margin-left: 25px;
+}
+
+ul.catalogo a,
+li.categoria a {
+	color: #020001;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	border-bottom: 1px solid #e5e4e6;
+	text-transform: uppercase;
+}
+
+div.span9.galeria {
+	margin-left: 0;
+	display: block;
+}
+
+li.span4.producto img{
+	width: 222px;
+	height:205px;
+	margin-bottom: 15px;
+}
+
+li.span4.producto a{
+	color:#868684;
+	text-transform: uppercase;
+	display: block;
+}
+
+li.span4.producto {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+header {
+	margin-top: 20px;
+	overflow:hidden;
+	z-index: 1;
+	top: 0;
+	width: 960px;
+	position: relative;
+}
+
+#myCarousel {
+	margin-top: -100px;
+	z-index: 0;
+}
+
+nav {
+	float: right;
+	font-size: 14px;
+	margin-top: 25px;
+	height: 33px;
+	margin-bottom: 0;
+	background: url(../img/nav.png) no-repeat;
+	padding-left: 19px;
+}
+
+ul.nav.nav-pills {
+	background-color: #000;
+	padding-left: 0;
+	margin-left: -1px;
+	height: 33px;
+}
+
+nav a{
+	color: #fff;
+}
+
+nav a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+section{
+	overflow: hidden;
+}
+h2{
+	font: 1.7em 'CenturyGBold';
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+p{
+	font-size: .9em;
+	line-height: 1.8em;
+}
+#myCarousel a.carousel-control.left {
+	background: transparent url(../img/slider/prev.png) no-repeat 0 top;
+	font-size:1px;
+	height: 50px;
+	left: 5px;
+	margin-top: 0;
+	top: 10px;
+	width: 51px;
+	z-index: 2;
+}
+#myCarousel a.carousel-control.right {
+	background: transparent url(../img/slider/next.png) no-repeat 0 top;
+	font-size:1px;
+	height: 50px;
+	margin-top: 0;
+	right: 0px;
+	top: 10px;
+	width: 51px;
+	z-index: 2;
+}
+
+div.span5.categorias {
+	margin-left: 1px;
+	float: right;
+	width: 391px;
+}
+#myCarousel a.carousel-control.left:hover,
+#myCarousel a.carousel-control.right:hover{
+	background-position: 0 bottom;
+}
+div.carousel-inner{
+	width: 100%;
+}
+
+div.carousel-inner img{
+	width: 962px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	position: relative;
+	z-index: -1;
+}
+
+
+div.redes{
+	width: 60px;
+	margin-left: auto;
+}
+a.icons{
+	margin-left: 3px;
+}
+div.span7 li{
+	list-style-type: none;
+	margin-bottom: 13px;
+}
+
+div.span7.banner {
+	margin-left: 0;
+}
+div.image{
+	float: right;
+	margin-left: 14px;
+	margin-bottom: 13px;
+}
+footer{
+	background-color: #aaaaaa;
+	width: 100%;
+	height: 110px;
+	margin-top: 20px;
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+}
+
+div.container {
+	margin-bottom: 115px;
+}
+
+#back-wrapper {
+	margin-bottom: 0;
+}
+footer nav{
+	background-color: transparent;
+	background-image: none;
+	float: left;
+}
+
+.blanco p{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+footer ul.nav.nav-pills {
+	background-color: transparent;
+}
+div.image li{
+	list-style-type: none;
+	position: relative;
+	z-index: 1;
+}
+
+
+div.logo {
+	float: left;
+}
+
+div.navegacion {
+	height: 60px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 120px;
+	width: 110px;
+}
+/********************Orange*********************************/
+@keyframes myfirst
+{
+from {background: #fff;}
+to {background: #fbfeee;}
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: #fff;}
+to {background: #fbfeee;}
+}
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background: #fff;}
+to {background: #fbfeee;}
+}
+@-o-keyframes myfirst /* Opera */
+{
+from {background: #fff;}
+to {background: #fbfeee;}
+}
+
+/****************Pink*******************/
+@keyframes pink
+{
+from {background: #fff;}
+
+to {background: #fdf6fb}
+}
+
+@-moz-keyframes pink /* Firefox */
+{
+from {background: #fff;}
+to {background: #fdf6fb;}
+}
+
+@-webkit-keyframes pink /* Safari and Chrome */
+{
+from {background: #fff;}
+to {background: #fdf6fb}
+}
+
+@-o-keyframes pink /* Opera */
+{
+from {background: #fff;}
+to {background: #fdf6fb}
+}

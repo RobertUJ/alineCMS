@@ -1,0 +1,134 @@
+/* Estilos del sitio. */
+/**
+ * @autor    					newemage.com.mx
+ * @fecha      {dd/mm/aaaa}		01/01/2012  	
+ * @sitioweb		    		test.com
+ * @maquetador 				    nombredelmaquetador       
+ */
+html,body{
+	min-width:100%;
+}
+
+body{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.navbar-fixed-top .brand {
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 20px;
+	float: right;
+	font-weight: bold;
+	color: black;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+.navbar-fixed-top .brand:hover{
+	text-shadow: 1px -1px 4px white;
+};
+
+.nav-tabs  li{
+	min-width: 200px !important;
+}
+
+#menu_usuarios{
+	/*background: url(../img/ico/user.png) center no-repeat;*/
+	min-height: 350px;
+}
+
+#usuarios_img{
+	background: url(../img/ico/32/user.png) top center no-repeat;
+	float: left;
+	display: inline-block;
+	padding-top: 30px;
+	margin-bottom:10px;
+	padding-left: 0px;
+	
+}
+#usuarios_img h6{
+	color:#B9B9B9;
+}
+
+#btn_crea_usuario {
+	margin-top:10px;
+	margin-left:10px;
+	padding: 5px;
+	position:relative;
+	float: left;
+}
+
+.lazul{
+	color:#3A87AD;
+}
+.lnaranja{
+	color:#F89406;
+}
+.lverde{
+	color:#356635;
+}
+
+.form-horizontal .control-label{
+	width:150px;
+}
+.form-horizontal .controls{
+	margin-left:170px;
+}
+
+#frmAddUsuario legend{
+	background: url(../img/ico/32/add.png) left center no-repeat;
+	padding-left:4%;
+	width:96%;
+
+}
+
+#cont_perfiles{
+	float:right; margin-top:25px;
+}
+
+.panel_usuarios .page-header{
+	margin-top:0px;
+	padding-bottom: 0px;
+}
+
+.div_form{
+	/*width:720px;*/
+	margin-left:170px;
+}
+
+.tabs-left > .nav-tabs{
+	width: 100%;
+}
+
+.cont_ico{
+	padding: 40px 0px;
+	text-align: center;
+}
+
+#content_escritorio .alert{
+	margin:10px!important;
+	color: black;
+}
+#content_escritorio .label{
+text-align:center; font-size:1.8em; padding:10px 0px
+}
+
+#content_escritorio img{
+	/*animation-iteration-count: infinite;*/
+}
+
+.cont_accion{
+	text-align: center!important;
+	padding: 0px;
+	width: 190px;
+}
+.cont_accion a{
+	margin:0px 5px;
+}

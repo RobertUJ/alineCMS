@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|guide|archivos|assets|assets/css|media|media/img|assets/js|assets/img|files|files/.*|robots\.txt)
+RewriteRule ^(.*)$ /aline/index.php/$1 [L]
